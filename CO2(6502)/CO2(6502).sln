@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CO2(6502)", "CO2(6502)\CO2(6502).vcxproj", "{3EEBB545-9141-4D6A-8F3E-4D40B5A4554A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3EEBB545-9141-4D6A-8F3E-4D40B5A4554A}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{3EEBB545-9141-4D6A-8F3E-4D40B5A4554A}.Debug|Mixed Platforms.ActiveCfg = Debug|x64
+		{3EEBB545-9141-4D6A-8F3E-4D40B5A4554A}.Debug|Mixed Platforms.Build.0 = Debug|x64
+		{3EEBB545-9141-4D6A-8F3E-4D40B5A4554A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3EEBB545-9141-4D6A-8F3E-4D40B5A4554A}.Debug|Win32.Build.0 = Debug|Win32
+		{3EEBB545-9141-4D6A-8F3E-4D40B5A4554A}.Debug|x64.ActiveCfg = Debug|x64
+		{3EEBB545-9141-4D6A-8F3E-4D40B5A4554A}.Release|Any CPU.ActiveCfg = Release|x64
+		{3EEBB545-9141-4D6A-8F3E-4D40B5A4554A}.Release|Mixed Platforms.ActiveCfg = Release|x64
+		{3EEBB545-9141-4D6A-8F3E-4D40B5A4554A}.Release|Mixed Platforms.Build.0 = Release|x64
+		{3EEBB545-9141-4D6A-8F3E-4D40B5A4554A}.Release|Win32.ActiveCfg = Release|Win32
+		{3EEBB545-9141-4D6A-8F3E-4D40B5A4554A}.Release|Win32.Build.0 = Release|Win32
+		{3EEBB545-9141-4D6A-8F3E-4D40B5A4554A}.Release|x64.ActiveCfg = Release|x64
+		{3EEBB545-9141-4D6A-8F3E-4D40B5A4554A}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

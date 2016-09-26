@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="HeaderFiles">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="ResourceFiles">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="SourceFiles">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="SourceFiles\BackEnd">
+      <UniqueIdentifier>{bea11333-7a44-4881-a15c-cb6dc46c41b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceFiles\CommonFiles">
+      <UniqueIdentifier>{657d1fcc-432f-43c6-b2d9-9c3b4b2f7093}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceFiles\FrontEnd">
+      <UniqueIdentifier>{ce51e7b8-cb3d-420a-944f-e02b8ca2729c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BackEnd\optimizer.cpp">
+      <Filter>SourceFiles\BackEnd</Filter>
+    </ClCompile>
+    <ClCompile Include="FrontEnd\semanticAnalyzer.cpp">
+      <Filter>SourceFiles\FrontEnd</Filter>
+    </ClCompile>
+    <ClCompile Include="gc.tab.c">
+      <Filter>SourceFiles\FrontEnd</Filter>
+    </ClCompile>
+    <ClCompile Include="lex.gc.c">
+      <Filter>SourceFiles\FrontEnd</Filter>
+    </ClCompile>
+    <ClCompile Include="CommonFiles\ocGen.cpp">
+      <Filter>SourceFiles\CommonFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="CommonFiles\errManager.cpp">
+      <Filter>SourceFiles\CommonFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="CommonFiles\symbolsTable.cpp">
+      <Filter>SourceFiles\CommonFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>SourceFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="BackEnd\asmGen.cpp">
+      <Filter>SourceFiles\BackEnd</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FrontEnd\semanticAnalyzer.h">
+      <Filter>ResourceFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>ResourceFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="FrontEnd\feErrMsg.h">
+      <Filter>ResourceFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="BackEnd\beErrMsg.h">
+      <Filter>ResourceFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="BackEnd\optimizer.h">
+      <Filter>ResourceFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonFiles\ocGen.h">
+      <Filter>ResourceFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonFiles\symbolsTable.h">
+      <Filter>ResourceFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonFiles\errManager.h">
+      <Filter>ResourceFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="BackEnd\asmGen.h">
+      <Filter>ResourceFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="gc.tab.h">
+      <Filter>ResourceFiles</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <FlexGenerator Include="FrontEnd\gc.l">
+      <Filter>SourceFiles\FrontEnd</Filter>
+    </FlexGenerator>
+  </ItemGroup>
+  <ItemGroup>
+    <BisonParser Include="FrontEnd\gc.y">
+      <Filter>SourceFiles\FrontEnd</Filter>
+    </BisonParser>
+  </ItemGroup>
+</Project>
